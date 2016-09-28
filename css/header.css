@@ -1,0 +1,43 @@
+header {
+    height: 94px;
+    line-height: 94px;
+    position: relative;
+    background-color: white;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    height: 100%;
+    width: 266px;
+    text-align: right;
+    padding-right: 41px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    display: inline-block;
+    font-family: 'Museo Sans Cyrl';
+    margin: 0;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 19px;
+    
+}
+
+#callme_button {
+    width: 238px;
+    height: 44px;
+    position: absolute;
+    right: 169px;
+    bottom: -19px;
+}
+
+.tel {
+    margin-left: 246px;
+    display: inline-block;
+    font-size: 14px;
+}
+

@@ -1,0 +1,75 @@
+#our_works {
+    margin-top: 130px;
+    display: none;
+}
+
+#our_works h2 {
+    margin-bottom: 86px;
+}
+
+.menu figure {
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0;
+    margin-right: 47px;
+    display: inline-block;
+}
+
+.menu figure hr {
+    color: white;
+    background-color: white; /* Цвет линии для браузера Firefox и Opera */
+    height: 5px;
+    border: none; /* Убираем границу для браузера Firefox */
+    width: 26px;
+    margin: 14px 0 0 0;
+}
+
+.menu figure:hover hr, .menu figure hr.active {
+    color: #FF9400;
+    background-color: #FF9400; /* Цвет линии для браузера Firefox и Opera */
+}
+
+.images {
+    margin-top: 29px;
+}
+
+.images figure {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+}
+
+.images figure:hover .hover {
+    display: block;
+}
+
+.images .hover {
+    display: none;
+    position: absolute;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    background-color: rgba(41, 171, 226, 0.73);
+    width: 325px;
+    height: 325px;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+.images .hover span {
+    position: absolute;
+    bottom: 24px;
+    left: 31px;
+}
+
+
+.images figure hr {
+    color: #FF9400;
+    background-color: #FF9400; /* Цвет линии для браузера Firefox и Opera */
+    height: 5px;
+    border: none; /* Убираем границу для браузера Firefox */
+    width: 26px;
+    margin: 14px 0 0 0;
+}
+

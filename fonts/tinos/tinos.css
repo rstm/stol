@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Tinos';
+    src: local('Tinos'), url('tinos.woff2') format('woff2'), url('tinos.woff') format('woff'), url('tinos.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tinos';
+    src: local('Tinos Italic'), local('Tinos-Italic'), url('tinositalic.woff2') format('woff2'), url('tinositalic.woff') format('woff'), url('tinositalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Tinos';
+    src: local('Tinos Bold'), local('Tinos-Bold'), url('tinosbold.woff2') format('woff2'), url('tinosbold.woff') format('woff'), url('tinosbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tinos';
+    src: local('Tinos Bold Italic'), local('Tinos-BoldItalic'), url('tinosbolditalic.woff2') format('woff2'), url('tinosbolditalic.woff') format('woff'), url('tinosbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}

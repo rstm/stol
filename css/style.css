@@ -1,0 +1,146 @@
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+a:hover {
+    color: #FF9400;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+.section {
+    width: 956px;
+    margin: 0 auto;
+}
+
+.section_large {
+    width: 1293px;
+    margin: 0 auto;
+}
+
+.blue {
+    background-color: #29ABE2;
+}
+
+.blue_text {
+    color: #29ABE2;
+}
+
+.black_text {
+    color: #1A1A1A;
+}
+
+.orange {
+    background-color: #FF9400;
+    border: none
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    background-image: url(../images/header-fon.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 1293px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+h2 {
+    font-family: 'Tinos';
+    font-weight: bold;
+    font-size: 40px;
+    color: #5D5D5D;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    width: 1293px;
+}
+
+span.shadow {
+    font-family: 'Tinos';
+    font-weight: bold;
+    font-size: 150px;
+    color: #E6E6E6;
+    position: absolute;
+    top: -79px;
+    z-index: -3;
+    width: 5000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: -1548px;
+    /*display: none;*/
+}
+
+h3 {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: #5D5D5D;
+    font-weight: normal;
+}
+
+.button {
+    color: white;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.request {
+    width: 956px;
+    padding: 16px 0 42px;
+    margin: 112px auto 0;
+    color: white;
+    font-family: 'Museo Sans Cyrl';
+}
+
+.request h4 {
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: 400;   
+    margin-bottom: 36px; 
+}
+
+.request input[type=text] {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 0 74px 0 0;
+    color: white;
+    font-family: 'Museo Sans Cyrl';
+    width: 230px;
+    padding-bottom: 7px;
+}
+
+.request .button {
+    width: 182px;
+    height: 44px;
+    font-size: 11px;
+    line-height: 44px;
+}
+
+h5 {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    color: #5D5D5D;    
+}
+
+.menu {
+    font-family: 'Open Sans';
+}
+
+.menu a {
+    margin-left: 33px;
+}
+
+section {
+    clear: both;
+}

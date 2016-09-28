@@ -1,0 +1,28 @@
+#why_we {
+}
+
+#why_we h2 {
+    margin: 122px auto 95px;
+}
+
+#why_set figure {
+    float: left;
+    margin: 0 49px 0 0;
+}
+
+#why_set figure:last-child {
+    margin: 0 0 0 18px;
+}
+
+#why_set p {
+    font-family: 'Open Sans';
+    font-size: 14px;    
+}
+
+#why_set h5 {
+    margin: 23px 0 -2px;
+}
+
+#why_set img {
+    height: 36px;
+}
