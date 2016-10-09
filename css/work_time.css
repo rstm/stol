@@ -1,0 +1,38 @@
+.white_wrapper {
+    width: 100%;
+    background-color: white;    
+}
+
+#work_time {
+    height: 294px;
+    padding: 124px 183px 0;
+}
+
+#work_time figure {
+    float: left;
+    width: 280px;
+    text-align: center;
+    margin: 0 14px;
+}
+
+#work_time h4 {
+    font-family: 'Open Sans Extrabold';
+    font-size: 50px;
+    color: #29ABE2;
+    margin: 0;
+}
+
+#work_time h5 {
+    font-family: 'Open Sans Semibold';
+    font-size: 16px;
+    color: #5D5D5D;
+    margin: 5px 0 0px;    
+}
+
+#work_time p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #5D5D5D;
+    margin: 8px 0;
+    line-height: 22px;
+}

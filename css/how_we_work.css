@@ -1,0 +1,59 @@
+#how_we_work {
+    background-color: #29ABE2;
+    z-index: -3;
+    padding: 57px 0;
+    text-align: center;    
+}
+
+#how_we_work h2 {
+    z-index: 3;
+    color: white;
+}
+
+#how_we_work .shadow {
+    left: 55px;
+    z-index: -1;
+    color: #E6E6E6;
+    opacity: 0.25;
+}
+
+#how_we_work .set {
+    margin: 83px auto;
+    width: 965px;
+}
+
+#how_we_work figure {
+    width: 131px;
+    height: 141px;
+    background-color: white;
+    text-align: left;
+    padding: 10px 0 0 17px;
+    margin:  0 6px;
+    float: left;
+}
+
+#how_we_work h3 {
+    font-family: 'Open Sans Bold';
+    color: #CCCCCC;
+    font-size: 33px;
+    margin: 0;
+}
+
+#how_we_work hr {
+    color: #FF9400;
+    background-color: #FF9400; /* Цвет линии для браузера Firefox и Opera */
+    height: 5px;
+    border: none; /* Убираем границу для браузера Firefox */
+    width: 15px;
+    margin: 1px 0 0 0;
+}
+
+#how_we_work figure p {
+    font-family: 'Open Sans Semibold';
+    font-size: 12px;
+    color: #5D5D5D;
+}
+
+#how_we_work span.grey {
+    color: #B3B3B3;
+}
