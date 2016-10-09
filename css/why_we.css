@@ -16,7 +16,8 @@
 
 #why_set p {
     font-family: 'Open Sans';
-    font-size: 14px;    
+    font-size: 14px;
+    line-height: 22px;    
 }
 
 #why_set h5 {
@@ -25,4 +26,8 @@
 
 #why_set img {
     height: 36px;
+}
+
+#why_we .shadow {
+    left: -153px;
 }

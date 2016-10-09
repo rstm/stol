@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5 {
 .section {
     width: 956px;
     margin: 0 auto;
+    overflow-y: auto;
 }
 
 .section_large {
@@ -42,6 +43,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #F7F7F7;
 }
 
 #wrapper {
@@ -72,12 +74,9 @@ span.shadow {
     position: absolute;
     top: -79px;
     z-index: -3;
-    width: 5000px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    left: -1548px;
-    /*display: none;*/
 }
 
 h3 {
@@ -97,7 +96,7 @@ h3 {
 .request {
     width: 956px;
     padding: 16px 0 42px;
-    margin: 112px auto 0;
+    margin: 107px auto 0;
     color: white;
     font-family: 'Museo Sans Cyrl';
 }

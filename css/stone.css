@@ -1,3 +1,55 @@
 #stone {
-    display: none;
+    margin-top: 119px;
+    font-family: 'Open Sans';
+}
+
+#stone .shadow {
+    left: -409px;
+}
+
+#stone p {
+    font-size: 15px;
+    color: #5D5D5D;
+    position: relative;
+}
+
+#stone figure {
+    position: relative;    
+    margin: 0 0 54px 0;
+}
+
+#stone figure div {
+    color: #29ABE2;
+    font-family: 'Tinos';
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: -18px;
+    left: -26px;
+}
+
+#stone figure hr {
+    position: absolute;
+    border: none;
+    color: #29ABE2;
+    background-color: #29ABE2;
+    width: 36px;
+    height: 1px;
+    transform: rotate(-59deg);
+    top: 11px;
+}
+
+#stone .left {
+    float: left;
+    margin: 60px 0 0 196px;
+}
+
+#stone .right {
+    float: right;
+    margin: 59px 150px 0 0;
+}
+
+#stone img {
+    float: left;
+    margin-top: 36px;
 }
