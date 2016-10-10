@@ -147,3 +147,18 @@ section {
 .clear {
     clear: both;
 }
+
+#map {
+	width: 100%;    
+	margin: 200px auto 0;
+    position: relative;
+}
+
+#map .request {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -103px;
+    text-align: center;
+}
