@@ -2,7 +2,8 @@
     background-color: #29ABE2;
     z-index: -3;
     padding: 57px 0 24px;
-    text-align: center;    
+    text-align: center;
+    min-width: 1293px;  
 }
 
 #how_we_work h2 {

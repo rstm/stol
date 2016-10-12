@@ -1,11 +1,14 @@
 .white_wrapper {
     width: 100%;
     background-color: white;    
+    min-width: 1293px;
 }
 
 #work_time {
     height: 294px;
     padding: 124px 183px 0;
+    width: 930px;
+    margin: 0 auto;
 }
 
 #work_time figure {

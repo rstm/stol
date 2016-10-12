@@ -1,6 +1,8 @@
 #reviews {
     text-align: center;
     padding-top: 53px;    
+    width: 1293px;
+    margin: 0 auto;
 }
 
 #reviews span.shadow {
