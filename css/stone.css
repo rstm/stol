@@ -1,7 +1,8 @@
 #stone {
-    margin-top: 119px;
     font-family: 'Open Sans';
     padding-bottom: 83px;
+    width: 1293px;
+    margin: 119px auto 0;
 }
 
 #stone .shadow {

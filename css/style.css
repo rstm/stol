@@ -50,7 +50,8 @@ body {
     background-image: url(../images/header-fon.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    width: 1293px;
+    min-width: 1293px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 40px;
     overflow-x: hidden;
