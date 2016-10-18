@@ -94,6 +94,7 @@ h3 {
     font-family: 'Museo Sans Cyrl';
     font-size: 11px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .request {
