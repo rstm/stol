@@ -2,34 +2,35 @@
 $mail_status = "not send";  
 if (isset($_POST['first_name']))
 {
-	$to= 'm.rustem18@gmail.com, d.x.r@mail.ru';
-	$subject = 'Онлайн-заказ';
-	
-	$from_user='столешницы-казань.рф';
-	$from_email='info@столешницы-казань.рф';
-	$from = "=?UTF-8?B?".base64_encode($from_user)."?= <" . $from_email . ">";
-	//тема русским щрифтом
-	$subject = "=?UTF-8?B?".base64_encode($subject)."?=";
-	//формируем правильный заголовок в соответствии со стандартом
-	$headers = "From: $from \r\n". 
-	 		"Reply-To: $from \r\n". 
-			"MIME-Version: 1.0" . "\r\n" . 
-			"Content-type: text/html; charset=UTF-8" . "\r\n"; 
-	$message = "
-		<html>				   		
-			<p>Имя: {$_POST['first_name']}</p>
-			<p>Номер телефона: {$_POST['phone_name']}</p>
-		</html>	
-	";
+    $to= 'm.rustem18@gmail.com, d.x.r@mail.ru';
+    $subject = 'Онлайн-заказ - столешницы-казань.рф';
+    
 
+    $from_user='столешницы-казань.рф';
+    $from_email='info@столешницы-казань.рф';
+    $from = "=?UTF-8?B?".base64_encode($from_user)."?= <" . $from_email . ">";
+    //тема русским щрифтом
+    $subject = "=?UTF-8?B?".base64_encode($subject)."?=";
+    //формируем правильный заголовок в соответствии со стандартом
+    $headers = "From: $from \r\n". 
+            "Reply-To: $from \r\n". 
+            "MIME-Version: 1.0" . "\r\n" . 
+            "Content-type: text/html; charset=UTF-8" . "\r\n"; 
+    $message = "
+        <html>                      
+            <p>Имя: {$_POST['first_name']}</p>
+            <p>Номер телефона: {$_POST['phone_number']}</p>
+        </html> 
+    ";
+        
     if(!mail($to, $subject, $message, $headers)) 
-	{
-		$mail_status = "send";  
-	}  
-	else 
-	{ 
-		$mail_status = "error";  
-	} 
+    {
+        $mail_status = 'error';
+    }  
+    else 
+    { 
+        $mail_status = 'send';
+    }  
 }
 ?>
 
@@ -62,7 +63,7 @@ if (isset($_POST['first_name']))
                 </nav>
 
                 <div class="tel"> 
-                    <abbr>8 (843) 250-50-50</abbr>
+                    <abbr>+7 (903) 343-01-07</abbr>
                 </div>
 
                 <button id="callme_button" class="button orange">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
@@ -81,11 +82,11 @@ if (isset($_POST['first_name']))
                         <p>Наши специалситы свяжутся с вами в ближайшее время</p>
                     <?php } else if ($mail_status == "error") { ?>
                         <h4>Упс, что-то пошло не так!</h4>
-                        <p>Пожалуйста, свяжитесь с нами по номеру 8 (843) 250-50-50</p>
+                        <p>Пожалуйста, свяжитесь с нами по номеру +7 (903) 343-01-07</p>
                     <?php } else { ?>
                         <h4>Оставьте заявку на бесплатный замер</h4>
-                        <input type="text" name="first_name" value="Имя">
-                        <input type="text" name="phone_number" value="Телефон">
+                        <input type="text" name="first_name" placeholder="Имя">
+                        <input type="text" name="phone_number" placeholder="Телефон">
                         <input type="submit" class="button orange" value="ОТПРАВИТЬ">
                     <?php } ?>
                 </form>

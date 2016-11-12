@@ -123,6 +123,15 @@ h3 {
     padding-bottom: 7px;
 }
 
+::-webkit-input-placeholder {color: white;}
+::-moz-placeholder          {color: white;}/* Firefox 19+ */
+:-moz-placeholder           {color: white;}/* Firefox 18- */
+:-ms-input-placeholder      {color: white;}
+
+*:focus {
+    outline: none;
+}
+
 .request .button {
     width: 182px;
     height: 44px;
@@ -167,3 +176,4 @@ section {
     top: -103px;
     text-align: center;
 }
+
