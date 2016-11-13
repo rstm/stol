@@ -29,7 +29,7 @@ if (isset($_POST['first_name']))
     }  
     else 
     { 
-        echo 'send';
+        echo 'ok';
     }  
 } else {
     echo 'error';
