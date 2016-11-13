@@ -1,5 +1,4 @@
 <?php
-
 if (isset($_POST['first_name']))
 {
     $to= 'm.rustem18@gmail.com, d.x.r@mail.ru';
@@ -30,7 +29,7 @@ if (isset($_POST['first_name']))
     else 
     { 
         echo 'ok';
-    }  
+    }
 } else {
     echo 'error';
 }
