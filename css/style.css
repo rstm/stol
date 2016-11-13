@@ -177,3 +177,44 @@ section {
     text-align: center;
 }
 
+.notice {
+    display: none;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #5D5D5D;
+}
+
+.notice .text {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -480px;
+    width: 960px;
+    height: 100px;  
+}
+
+.notice h4 {
+    font-size: 36px;
+    margin: 21px 0;
+}
+
+.notice .close_notice {
+    color: #a5a5a5;
+    background-color: #29ABE2;
+    padding: 7px 14px;
+    cursor: pointer;
+    margin-top: 34px;
+    display: inline-block;
+    color: white;
+}
+

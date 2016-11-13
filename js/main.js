@@ -1,4 +1,31 @@
 $(document).ready(function() {
+    
+    //send-mail
+    $(".request").submit(function(e) {
+                  
+    $(this).find('input[type=submit]').html('Подождите...');
+    var url = "send_mail.php"; // the script where you handle the form input.    
+    var fd = new FormData($(this));
+    
+    $.ajax({
+        type: "POST",
+        url: url,
+        data: fd, // serializes the form's elements.
+        enctype: 'multipart/form-data',
+        processData: false,  // tell jQuery not to process the data
+        contentType: false,  
+        success: function(data)
+        {
+            if (data == 'ok') {
+                $('#success_mail_send').fadeIn('fast');
+            } else {
+                $('#failed_mail_send').fadeIn('fast');
+            }
+            $(this).find('input[type=submit]').html('ОТПРАВИТЬ');
+        }
+    });
+     e.preventDefault(); // avoid to execute the actual submit of the form.
+  });
 
     // scroll to name by tag
   $(function() {
@@ -26,4 +53,8 @@ $(document).ready(function() {
     });
   });
   
+    $('.notice .close_notice').click(function() {
+        $(this).parent().parent().fadeOut('fast');
+    });
+    
 });

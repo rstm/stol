@@ -1,37 +1,5 @@
 <?php
-$mail_status = "not send";  
-if (isset($_POST['first_name']))
-{
-    $to= 'm.rustem18@gmail.com, d.x.r@mail.ru';
-    $subject = 'Онлайн-заказ - столешницы-казань.рф';
-    
 
-    $from_user='столешницы-казань.рф';
-    $from_email='info@столешницы-казань.рф';
-    $from = "=?UTF-8?B?".base64_encode($from_user)."?= <" . $from_email . ">";
-    //тема русским щрифтом
-    $subject = "=?UTF-8?B?".base64_encode($subject)."?=";
-    //формируем правильный заголовок в соответствии со стандартом
-    $headers = "From: $from \r\n". 
-            "Reply-To: $from \r\n". 
-            "MIME-Version: 1.0" . "\r\n" . 
-            "Content-type: text/html; charset=UTF-8" . "\r\n"; 
-    $message = "
-        <html>                      
-            <p>Имя: {$_POST['first_name']}</p>
-            <p>Номер телефона: {$_POST['phone_number']}</p>
-        </html> 
-    ";
-        
-    if(!mail($to, $subject, $message, $headers)) 
-    {
-        $mail_status = 'error';
-    }  
-    else 
-    { 
-        $mail_status = 'send';
-    }  
-}
 ?>
 
 <html>
@@ -51,7 +19,7 @@ if (isset($_POST['first_name']))
         <link href="css/how_we_work.css" rel="stylesheet">                   
         <link href="css/stone.css" rel="stylesheet">
         <link href="css/reviews.css" rel="stylesheet">        
-        
+        <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 960px)">
 
     </head>
     <body>
@@ -79,18 +47,10 @@ if (isset($_POST['first_name']))
                 сохраняя функциональность и эстетичность.</h3>
 
                 <form class="request blue" method="POST" id="main_request_form">
-                    <?php if ($mail_status == "send") { ?>
-                        <h4>Ваша заявка отправлена!</h4>
-                        <p>Наши специалситы свяжутся с вами в ближайшее время</p>
-                    <?php } else if ($mail_status == "error") { ?>
-                        <h4>Упс, что-то пошло не так!</h4>
-                        <p>Пожалуйста, свяжитесь с нами по номеру +7 (903) 343-01-07</p>
-                    <?php } else { ?>
                         <h4>Оставьте заявку на бесплатный замер</h4>
                         <input type="text" name="first_name" placeholder="Имя">
                         <input type="text" name="phone_number" placeholder="Телефон">
                         <input type="submit" class="button orange" value="ОТПРАВИТЬ">
-                    <?php } ?>
                 </form>
             </section>
 
@@ -290,7 +250,25 @@ if (isset($_POST['first_name']))
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.4491585827836!2d49.19843677234705!3d55.85487314945062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eb32b6e7d9d3d%3A0x95111d91ab3a3b96!2z0J_QvtC_0LXRgNC10YfQvdC-LdCd0L7QutGB0LjQvdGB0LrQsNGPINGD0LsuLCA0Niwg0JrQsNC30LDQvdGMLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9LCA0MjAwNTM!5e0!3m2!1sru!2sru!4v1479053797258" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
     
         </section>
+        
+        
+        <div id="success_mail_send" class="notice">
+            <div class="text">
+                <h4>Ваша заявка отправлена!</h4>
+                <p>Наши специалисты свяжутся с вами в ближайшее время</p>
+                <span class="close_notice">Назад</span>
+            </div>
+        </div>
 
+        <div id="failed_mail_send" class="notice">
+            <div class="text">
+                <h4>Упс, что-то пошло не так!</h4>
+                <p>Пожалуйста, свяжитесь с нами по номеру +7 (903) 343-01-07</p>
+                <span class="close_notice">Назад</span>
+            </div>
+        </div>
+        
+        
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js""></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
