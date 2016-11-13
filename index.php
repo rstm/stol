@@ -97,7 +97,7 @@ if (isset($_POST['first_name']))
                 <h2>Почему выбирают нас?<span class="shadow">Почему выбирают нас?</span></h2>
                 <div id="why_set" class="section">
                     <figure>
-                        <img src="images/why1.jpg" alt="">
+                        <img src="images/why1.png" alt="">
                         <h5>Собственное производство</h5>
                         <p>Мы сами изготавливаем каждое<br>
                             изделие, и всегда можем пригласить вас <br>
@@ -106,14 +106,14 @@ if (isset($_POST['first_name']))
                         </p>
                     </figure>
                     <figure>
-                        <img src="images/why2.jpg" alt="">
+                        <img src="images/why2.png" alt="">
                         <h5>Высокий контроль качества</h5>
                         <p>Качество изделия контролируется <br>
 несколько раз за производственный цикл<br>
                         </p>
                     </figure>
                     <figure>
-                        <img src="images/why3.jpg" alt="">
+                        <img src="images/why3.png" alt="">
                         <h5>Квалифицированные сотрудники</h5>
                         <p>Наша команда — команда<br>
                          профессионалов, любящих своё дело
