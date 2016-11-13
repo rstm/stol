@@ -51,22 +51,24 @@ if (isset($_POST['first_name']))
         <link href="css/how_we_work.css" rel="stylesheet">                   
         <link href="css/stone.css" rel="stylesheet">
         <link href="css/reviews.css" rel="stylesheet">        
+        
+
     </head>
     <body>
         <div id="wrapper">
             <header class="section_large">
                 <h1 class="blue">МОНОЛИТ</h1>
                 <nav class="menu">
-                    <a href="/index.php">НАШИ РАБОТЫ</a>
-                    <a href="/index.php">ОТЗЫВЫ</a>
-                    <a href="/index.php">КОНТАКТЫ</a>
+                    <a href="/index.php#our_works">НАШИ РАБОТЫ</a>
+                    <a href="/index.php#reviews">ОТЗЫВЫ</a>
+                    <a href="/index.php#map">КОНТАКТЫ</a>
                 </nav>
 
                 <div class="tel"> 
                     <abbr>+7 (903) 343-01-07</abbr>
                 </div>
 
-                <button id="callme_button" class="button orange">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
+                <button id="callme_button" class="button orange" data-target="main_request_form">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
             </header>
 
             <section id="slogan">
@@ -76,7 +78,7 @@ if (isset($_POST['first_name']))
                 <h3>Мы воплощаем ваши самые смелые идеи и задумки в практичную реальность,<br> 
                 сохраняя функциональность и эстетичность.</h3>
 
-                <form class="request blue" method="POST">
+                <form class="request blue" method="POST" id="main_request_form">
                     <?php if ($mail_status == "send") { ?>
                         <h4>Ваша заявка отправлена!</h4>
                         <p>Наши специалситы свяжутся с вами в ближайшее время</p>
@@ -277,16 +279,19 @@ if (isset($_POST['first_name']))
 
         <section id="map">
 
-                <form class="request blue">
+                <form class="request blue" method="POST">
                     <h4>Оставьте заявку на бесплатный замер</h4>
-                    <input type="text" name="first_name" value="Имя">
-                    <input type="text" name="phone_number" value="Телефон">
+                    <input type="text" name="first_name" placeholder="Имя">
+                    <input type="text" name="phone_number" placeholder="Телефон">
                     <input type="submit" class="button orange" value="ОТПРАВИТЬ">
                 </form>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8965.730863544883!2d49.09748225601306!3d55.820448257478276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!3m2!1sru!2sru!4v1476121221636" 
-    width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+  
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.4491585827836!2d49.19843677234705!3d55.85487314945062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eb32b6e7d9d3d%3A0x95111d91ab3a3b96!2z0J_QvtC_0LXRgNC10YfQvdC-LdCd0L7QutGB0LjQvdGB0LrQsNGPINGD0LsuLCA0Niwg0JrQsNC30LDQvdGMLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9LCA0MjAwNTM!5e0!3m2!1sru!2sru!4v1479053797258" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
         </section>
 
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js""></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
