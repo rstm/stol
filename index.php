@@ -246,8 +246,20 @@
                     <input type="submit" class="button orange" value="ОТПРАВИТЬ">
                 </form>
 
-  
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.4491585827836!2d49.19843677234705!3d55.85487314945062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eb32b6e7d9d3d%3A0x95111d91ab3a3b96!2z0J_QvtC_0LXRgNC10YfQvdC-LdCd0L7QutGB0LjQvdGB0LrQsNGPINGD0LsuLCA0Niwg0JrQsNC30LDQvdGMLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9LCA0MjAwNTM!5e0!3m2!1sru!2sru!4v1479053797258" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!--  
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.4491585827836!2d49.19843677234705!3d55.85487314945062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eb32b6e7d9d3d%3A0x95111d91ab3a3b96!2z0J_QvtC_0LXRgNC10YfQvdC-LdCd0L7QutGB0LjQvdGB0LrQsNGPINGD0LsuLCA0Niwg0JrQsNC30LDQvdGMLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9LCA0MjAwNTM!5e0!3m2!1sru!2sru!4v1479053797258" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+    
+    <div style="width: 100%; overflow: hidden; height: 500px;">
+  <iframe 
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.4491585827836!2d49.19843677234705!3d55.85487314945062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eb32b6e7d9d3d%3A0x95111d91ab3a3b96!2z0J_QvtC_0LXRgNC10YfQvdC-LdCd0L7QutGB0LjQvdGB0LrQsNGPINGD0LsuLCA0Niwg0JrQsNC30LDQvdGMLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9LCA0MjAwNTM!5e0!3m2!1sru!2sru!4v1479053797258"
+     width="100%"
+     height="800"
+     frameborder="0"
+     style="border:0; margin-top: -150px;">
+  </iframe>
+</div>
+    
+    
     
         </section>
         
