@@ -5,6 +5,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="yandex-verification" content="6f38248b43d18751" />
 
         <link href="fonts/museosanscyrl.css" rel="stylesheet">
         <link href="fonts/opensans/opensans.css" rel="stylesheet">
@@ -20,7 +21,6 @@
         <link href="css/stone.css" rel="stylesheet">
         <link href="css/reviews.css" rel="stylesheet">        
         <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 960px)">
-
     </head>
     <body>
         <div id="wrapper">
