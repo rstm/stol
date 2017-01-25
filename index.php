@@ -25,7 +25,7 @@
     <body>
         <div id="wrapper">
             <header class="section_large">
-                <h1 class="blue">МОНОЛИТ</h1>
+                <h1 class="blue">СТОЛЕШНИЦЫ-КАЗАНЬ.РФ</h1>
                 <nav class="menu">
                     <a href="/index.php#our_works">НАШИ РАБОТЫ</a>
                     <a href="/index.php#reviews">ОТЗЫВЫ</a>
@@ -33,7 +33,7 @@
                 </nav>
 
                 <div class="tel"> 
-                    <abbr>+7 (903) 343-01-07</abbr>
+                    <abbr>+7 (903) 343-01-71</abbr>
                 </div>
 
                 <button id="callme_button" class="button orange" data-target="main_request_form">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
@@ -275,7 +275,7 @@
         <div id="failed_mail_send" class="notice">
             <div class="text">
                 <h4>Упс, что-то пошло не так!</h4>
-                <p>Пожалуйста, свяжитесь с нами по номеру +7 (903) 343-01-07</p>
+                <p>Пожалуйста, свяжитесь с нами по номеру +7 (903) 343-01-71</p>
                 <span class="close_notice">Назад</span>
             </div>
         </div>
