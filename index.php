@@ -21,6 +21,9 @@
         <link href="css/stone.css" rel="stylesheet">
         <link href="css/reviews.css" rel="stylesheet">        
         <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 960px)">
+
+        <meta name="keywords" content="производство столешницы столешница столешницу каменные искусственный акриловые из акрилового акрил акриловый корейский камень из искусственного камня Hi-Macs Staron Samsung Hanex Grandex Akrilika Montelli для кухни для ванной цена за метр купить казань в казани дешево недорого на заказ агломерат для столешниц и подоконников ванная подоконники умывальник мойка раковина изделия" />
+
     </head>
     <body>
         <div id="wrapper">
