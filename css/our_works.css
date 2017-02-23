@@ -39,6 +39,11 @@
     margin: 0;
 }
 
+.images figure img {
+    width: 323px;
+    height: 325px;
+}
+
 .images figure:hover .hover {
     display: block;
 }
@@ -49,7 +54,7 @@
     font-family: 'Open Sans';
     font-size: 16px;
     background-color: rgba(41, 171, 226, 0.73);
-    width: 325px;
+    width: 323px;
     height: 325px;
     left: 0;
     top: 0;
