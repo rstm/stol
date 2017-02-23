@@ -1,6 +1,5 @@
 #our_works {
     margin-top: 120px;
-    overflow-y: auto;
 }
 
 #our_works h2 {
@@ -31,6 +30,7 @@
 
 .images {
     margin-top: 29px;
+    overflow-y: auto;
 }
 
 .images figure {
@@ -74,5 +74,5 @@
 }
 
 #our_works .shadow {
-    left: 191px;
+    left: 495px;
 }

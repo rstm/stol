@@ -1,7 +1,4 @@
-<?php
-
-?>
-
+<!DOCTYPE HTML>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -28,7 +25,7 @@
     <body>
         <div id="wrapper">
             <header class="section_large">
-                <h1 id="logo" class="blue">СТОЛЕШНИЦЫ-КАЗАНЬ.РФ</h1>
+                <a href='/' id="logo" class="blue">СТОЛЕШНИЦЫ-КАЗАНЬ.РФ<a/>
                 <nav class="menu">
                     <a id="our_works_button">НАШИ РАБОТЫ</a>
                     <a id="reviews_button">ОТЗЫВЫ</a>
@@ -57,7 +54,7 @@
                 </form>
             </section>
 
-            
+
             <section id="our_works">
 
                 <h2>Наши работы<span class="shadow">Наши работы</span></h2>
