@@ -12,7 +12,6 @@ h1 {
     height: 100%;
     width: 266px;
     text-align: right;
-    padding-right: 41px;
     font-size: 16px;
     font-weight: 300;
     color: white;
@@ -41,3 +40,11 @@ nav {
     font-size: 14px;
 }
 
+#logo {
+    padding-left: 20px;
+    padding-right: 34px;    
+}
+
+.menu a {
+    cursor: pointer;
+}

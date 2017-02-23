@@ -25,16 +25,15 @@ $(document).ready(function() {
 
     // scroll to name by tag
   $(function() {
-    $('a').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top - 10
-          }, 1000);
-          return false;
-        }
+    $('.menu a').click(function() {
+      var id = $(this).attr('id');
+      var target_id = id.substring(0, id.length - 7);
+      var target = $('#' + target_id);
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 10
+        }, 1000);
+        return false;
       }
     });
     

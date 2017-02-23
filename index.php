@@ -28,11 +28,11 @@
     <body>
         <div id="wrapper">
             <header class="section_large">
-                <h1 class="blue">СТОЛЕШНИЦЫ-КАЗАНЬ.РФ</h1>
+                <h1 id="logo" class="blue">СТОЛЕШНИЦЫ-КАЗАНЬ.РФ</h1>
                 <nav class="menu">
-                    <a href="/index.php#our_works">НАШИ РАБОТЫ</a>
-                    <a href="/index.php#reviews">ОТЗЫВЫ</a>
-                    <a href="/index.php#map">КОНТАКТЫ</a>
+                    <a id="our_works_button">НАШИ РАБОТЫ</a>
+                    <a id="reviews_button">ОТЗЫВЫ</a>
+                    <a id="map_button">КОНТАКТЫ</a>
                 </nav>
 
                 <div class="tel"> 
