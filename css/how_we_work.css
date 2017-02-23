@@ -29,8 +29,9 @@
     background-color: white;
     text-align: left;
     padding: 10px 0 0 17px;
-    margin:  0 6px;
+    margin:  0 4px;
     float: left;
+    border: 2px solid #ff9400;
 }
 
 #how_we_work h3 {

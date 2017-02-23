@@ -111,7 +111,7 @@
                         <img src="images/why3.png" alt="">
                         <h5>Квалифицированные сотрудники</h5>
                         <p>Наша команда — команда<br>
-                         профессионалов, любящих своё дело
+                         профессионалов, любящих своё дело
                         </p>
                     </figure>
                 </div>
@@ -182,7 +182,7 @@
                 <figure>
                     <h4>3</h4>
                     <h5>года гарантии</h5>
-                    <p>мы заключаем договор<br>на службу</p>
+                    <p>мы заключаем договор<br>на службу</p>
                 </figure>
             </section>
         </div>
@@ -194,7 +194,7 @@
                 <figure>
                     <h3>01</h3>
                     <hr>
-                    <p>Вы отправляете<br>заявку</p>
+                    <p>Вы отправляете<br>заявку</p>
                 </figure>
                 <figure>
                     <h3>02</h3>
@@ -282,7 +282,7 @@
         </div>
         
         
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js""></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
