@@ -12,7 +12,6 @@
 }
 
 #how_we_work .shadow {
-    left: 360px;
     z-index: -1;
     color: #E6E6E6;
     opacity: 0.25;
