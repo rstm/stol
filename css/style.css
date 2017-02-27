@@ -65,6 +65,8 @@ h2 {
     text-align: center;
     position: relative;
     white-space: nowrap;
+    overflow-x: hidden;
+    padding: 50px 0;
 }
 
 span.shadow {
@@ -73,7 +75,7 @@ span.shadow {
     font-size: 150px;
     color: #E6E6E6;
     position: absolute;
-    top: -79px;
+    top: -29px;
     z-index: -3;
     text-align: center;
     margin-left: auto;

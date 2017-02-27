@@ -1,8 +1,12 @@
 #reviews {
     text-align: center;
-    padding-top: 53px;    
+    padding-top: 3px;    
     width: 1293px;
     margin: 0 auto;
+}
+
+#reviews h2 {
+  margin-bottom: -20px;
 }
 
 #reviews span.shadow {

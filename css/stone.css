@@ -1,8 +1,7 @@
 #stone {
     font-family: 'Open Sans';
     padding-bottom: 83px;
-    width: 1293px;
-    margin: 119px auto 0;
+    margin: 70px auto 0;
 }
 
 #stone .shadow {
@@ -42,15 +41,20 @@
 
 #stone .left {
     float: left;
-    margin: 60px 0 0 196px;
+    margin: 10px 0 0 196px;
 }
 
 #stone .right {
     float: right;
-    margin: 59px 150px 0 0;
+    margin: 9px 150px 0 0;
 }
 
 #stone img {
     float: left;
-    margin-top: 36px;
+    margin-top: -14px;
+}
+
+#stone .container {
+    width: 1293px;
+    margin: 0 auto;
 }

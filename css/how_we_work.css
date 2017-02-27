@@ -1,7 +1,7 @@
 #how_we_work {
     background-color: #29ABE2;
     z-index: -3;
-    padding: 57px 0 24px;
+    padding: 7px 0 24px;
     text-align: center;
     min-width: 1293px;  
 }
@@ -18,7 +18,7 @@
 }
 
 #how_we_work .set {
-    margin: 83px auto;
+    margin: 33px auto 83px;
     width: 965px;
 }
 

@@ -120,48 +120,50 @@
             <section id="stone">
                 <h2>Что такое искусственный камень<span class="shadow">Что такое искусственный камень?</span></h2>
 
-                <div class="left">
-                    <figure>
-                        Безупречно гладкая поверхность,<br>
-                        любой формы без швов и стыков
-                        <div>1<hr></div>
-                    </figure>
+                <div class="container">
+                    <div class="left">
+                        <figure>
+                            Безупречно гладкая поверхность,<br>
+                            любой формы без швов и стыков
+                            <div>1<hr></div>
+                        </figure>
 
-                    <figure>
-                        Средний срок эксплуатации<br>
-                        столешниц — 30лет
-                        <div>2<hr></div>
-                    </figure>
+                        <figure>
+                            Средний срок эксплуатации<br>
+                            столешниц — 30лет
+                            <div>2<hr></div>
+                        </figure>
 
-                    <figure>
-                        Устойчивость к появлению пятен —<br>
-                        камень не впитывает влагу
-                        <div>3<hr></div>
-                    </figure>
+                        <figure>
+                            Устойчивость к появлению пятен —<br>
+                            камень не впитывает влагу
+                            <div>3<hr></div>
+                        </figure>
+                    </div>
+
+                    <img src="images/stone.jpg" alt="">
+
+                    <div class="right">
+                        <figure>
+                            Экологичностьи безопасность<br>
+                            для здоровья
+                            <div>4<hr></div>
+                        </figure>
+
+                        <figure>
+                            Возможность интеграции мойки<br>
+                            единым полотном без швов и стыков
+                            <div>5<hr></div>
+                        </figure>
+                        <figure>
+                            Нет вздутий, плесени и грибка <br>
+                            из-за большой плотности <br>
+                            и отсутствия швов
+                            <div>6<hr></div>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
                 </div>
-
-                <img src="images/stone.jpg" alt="">
-
-                <div class="right">
-                    <figure>
-                        Экологичностьи безопасность<br>
-                        для здоровья
-                        <div>4<hr></div>
-                    </figure>
-
-                    <figure>
-                        Возможность интеграции мойки<br>
-                        единым полотном без швов и стыков
-                        <div>5<hr></div>
-                    </figure>
-                    <figure>
-                        Нет вздутий, плесени и грибка <br>
-                        из-за большой плотности <br>
-                        и отсутствия швов
-                        <div>6<hr></div>
-                    </figure>
-                </div>
-                <div class="clear"></div>
             </section>
         </div>
             
