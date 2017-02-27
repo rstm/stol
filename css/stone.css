@@ -51,7 +51,9 @@
 
 #stone img {
     float: left;
-    margin-top: -14px;
+    margin-top: 10px;
+    width: 237px;
+    margin-left: 49px;
 }
 
 #stone .container {
