@@ -48,8 +48,27 @@ $(document).ready(function() {
     });
   });
   
-    $('.notice .close_notice').click(function() {
-        $(this).parent().parent().fadeOut('fast');
+  $('.notice .close_notice').click(function() {
+      $(this).parent().parent().fadeOut('fast');
+  });
+
+
+  $('.paging span').on('click', function() {
+
+    $('.show .content').animate({
+        "opacity" : "0"
+    }, 200, function() {
+        
+        var left_html = $('#reviews .left .content').html();
+        var show_html = $('#reviews .show .content').html();
+
+        $('.left').html(show_html);
+        $('.show').html(left_html);
+
+        $('.show').animate({
+            "opacity" : "1"
+        }, 200);
     });
+  });
     
 });

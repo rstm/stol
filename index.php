@@ -237,7 +237,32 @@
 
         <section id="reviews">
             <h2>Отзывы<span class="shadow">Отзывы</span></h2>
-            <img src="images/reviews.jpg" alt="">     
+
+            <div class="slides">
+                <div class="slide left sub_slide">
+                    <div class="content">
+                        left
+                    </div>
+                </div>
+
+                <div class="slide show">
+                    <div class="content">
+                        center
+                    </div>
+                </div>
+
+                <div class="slide right sub_slide">
+                    <div class="content">
+                        right
+                    </div>
+                </div>
+            </div>
+
+            <div class="paging">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+            </div>
         </section>
 
         <section id="map">

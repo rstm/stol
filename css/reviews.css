@@ -3,11 +3,80 @@
     padding-top: 3px;    
     width: 1293px;
     margin: 0 auto;
+    height: 400px;
 }
 
 #reviews h2 {
   margin-bottom: -20px;
 }
 
-#reviews span.shadow {
+#reviews .slides {
+	width: 800px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+	position: relative;
+  height: 230px;
+}
+
+#reviews .slide {
+	display: block;
+	width: 500px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#reviews .sub_slide {
+	top: 10px;
+	height: 180px;
+}
+
+#reviews .slide.left {
+	left: 0;
+	right: initial;
+	z-index: 1;
+}
+
+#reviews .show {
+	margin-left: auto;
+  margin-right: auto;
+  left: 150px;
+  z-index: 3;
+}
+
+#reviews .right {
+	right: 0;
+	z-index: 1;
+}
+
+#reviews .paging {
+	clear: both;
+}
+
+#reviews .paging span {
+	display: inline-block;
+	cursor: pointer;
+}
+
+#reviews .slide h4 {
+
+}
+
+#reviews .slide h5 {
+
+}
+
+#reviews .slide p {
+
+}
+
+#reviews .slide img {
+
 }
