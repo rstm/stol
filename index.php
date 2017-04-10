@@ -241,28 +241,51 @@
             <div class="slides">
                 <div class="slide left sub_slide">
                     <div class="content">
-                        left
+                        <img src="images/faces/2.jpg"/>
+                        <h4>Мария Иванова</h4>
+                        <h5>&laquo;компанию Монолит посоветовали друзья&raquo;</h5>
+                        <p>Для завершения ремонта на кухне нам оставалось 
+                        только обновить столешницу на более подходящий вариант для нового интерьера.</p>
                     </div>
                 </div>
 
                 <div class="slide show">
                     <div class="content">
-                        center
+                        <img src="images/faces/1.jpg"/>
+                        <h4>Мария Иванова</h4>
+                        <h5>&laquo;компанию Монолит посоветовали друзья&raquo;</h5>
+                        <p>Для завершения ремонта на кухне нам оставалось 
+                        только обновить столешницу на более подходящий вариант для нового интерьера.
+                        Мы решили сделать заказ в студии "Монолит" и остались очень довольны.
+                        Сотрудники компании не только оперативно произвели замеры,
+                        но и помогли выбрать подходящий цвет столешницы из более чем 300 вариантов.</p>
                     </div>
                 </div>
 
                 <div class="slide right sub_slide">
+                    <div class="content">
+                        <img src="images/faces/3.jpg"/>
+                        <h4>Мария Иванова</h4>
+                        <h5>&laquo;компанию Монолит посоветовали друзья&raquo;</h5>
+                        <p>Для завершения ремонта на кухне нам оставалось 
+                        только обновить столешницу на более подходящий вариант для нового интерьера.
+                        Мы решили сделать заказ в студии "Монолит" и остались очень довольны..</p>
+                    </div>
+                </div>
+
+                <div class="slide sub_slide hidden">
                     <div class="content">
                         right
                     </div>
                 </div>
             </div>
 
-            <div class="paging">
-                <span>1</span>
-                <span>2</span>
-                <span>3</span>
-            </div>
+            <!--<div class="paging">
+                <span id="1">1</span>
+                <span id="2">2</span>
+                <span id="3">3</span>
+                <span id="4">4</span>
+            </div>-->
         </section>
 
         <section id="map">

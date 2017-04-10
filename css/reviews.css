@@ -11,17 +11,19 @@
 }
 
 #reviews .slides {
-	width: 800px;
-	margin: 0 auto;
+	width: 927px;
+	margin: 43px auto 0;
 	/*overflow: hidden;*/
 	position: relative;
-  height: 230px;
+  	height: 230px;
+}
+
+.hidden {
+	display: none;
 }
 
 #reviews .slide {
 	display: block;
-	width: 500px;
-	height: 200px;
 	background-color: white;
 	position: absolute;
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
@@ -31,11 +33,15 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    text-align: left;
 }
 
 #reviews .sub_slide {
-	top: 10px;
+	top: 23px;
 	height: 180px;
+	cursor: pointer;
+	width: 423px;
+	height: 248px;
 }
 
 #reviews .slide.left {
@@ -46,9 +52,11 @@
 
 #reviews .show {
 	margin-left: auto;
-  margin-right: auto;
-  left: 150px;
-  z-index: 3;
+	margin-right: auto;
+	left: 213px;
+	z-index: 3;
+	width: 522px;
+	height: 318px;
 }
 
 #reviews .right {
@@ -66,17 +74,37 @@
 }
 
 #reviews .slide h4 {
-
+	font-family: 'Museo Sans Cyrl';
+	font-size: 16px;
+	color: #5D5D5D;
+	margin-top: 42px;
+    display: inline-block;
+	margin-bottom: 5px;
 }
 
 #reviews .slide h5 {
-
+    font-family: 'Open Sans';
+	font-style: italic;
+	font-size: 14px;
+	color: #B3B3B3;
+	display: inline-block;
+    margin-top: 0px;
+	margin-bottom: 21px;
 }
 
 #reviews .slide p {
-
+    font-family: 'Open Sans';
+	font-size: 14px;
+	color: #808080;
+	margin-left: 113px;
+	margin-top: 0;
+    line-height: 22px;
+	width: 380px;
 }
 
 #reviews .slide img {
-
+	border-radius: 50%;
+	width: 50px;
+	float: left;
+	margin: 39px 22px 0 44px;
 }

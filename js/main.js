@@ -53,22 +53,35 @@ $(document).ready(function() {
   });
 
 
-  $('.paging span').on('click', function() {
-
-    $('.show .content').animate({
-        "opacity" : "0"
-    }, 200, function() {
-        
-        var left_html = $('#reviews .left .content').html();
-        var show_html = $('#reviews .show .content').html();
-
-        $('.left').html(show_html);
-        $('.show').html(left_html);
-
-        $('.show').animate({
-            "opacity" : "1"
-        }, 200);
-    });
+  $('.sub_slide').on('click', function() {
+        switchContent($(this), $('#reviews .show'));
   });
     
 });
+
+function switchContent(one, two) {
+
+    var one_content = $(one).find('.content');
+    var two_content = $(two).find('.content');
+    
+    $(two_content).animate({
+        "opacity" : "0"
+    }, 200);
+    $(one_content).animate({
+        "opacity" : "0"
+    }, 200, function() {
+        
+        var one_html = $(one_content).html();
+        var two_html = $(two_content).html();
+
+        $(one_content).html(two_html);
+        $(two_content).html(one_html);
+
+        $(one_content).animate({
+            "opacity" : "1"
+        }, 200);
+        $(two_content).animate({
+            "opacity" : "1"
+        }, 200);
+    });
+};
