@@ -124,6 +124,7 @@
 .less_text, .more_text {
 	display: block;
 	color: rgb(68,183,230);
+	cursor: pointer;
 }
 
 .auto_height {
