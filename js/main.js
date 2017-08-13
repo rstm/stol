@@ -1,27 +1,30 @@
 $(document).ready(function() {
-    
+
+    cutReviewText();
+    showHideTextTails();
+
     //send-mail
     $(".request").submit(function(e) {
                   
-    $(this).find('input[type=submit]').html('Подождите...');
-    var url = "send_mail.php"; // the script where you handle the form input.    
-    
-    $.ajax({
-        type: "POST",
-        url: url,
-        data: $(this).serialize(), // serializes the form's elements.
-        success: function(data)
-        {
-            if (data == 'ok') {
-                $('#success_mail_send').fadeIn('fast');
-            } else {
-                $('#failed_mail_send').fadeIn('fast');
-            }
-            $(this).find('input[type=submit]').html('ОТПРАВИТЬ');
-        }
+      $(this).find('input[type=submit]').html('Подождите...');
+      var url = "send_mail.php"; // the script where you handle the form input.    
+      
+      $.ajax({
+          type: "POST",
+          url: url,
+          data: $(this).serialize(), // serializes the form's elements.
+          success: function(data)
+          {
+              if (data == 'ok') {
+                  $('#success_mail_send').fadeIn('fast');
+              } else {
+                  $('#failed_mail_send').fadeIn('fast');
+              }
+              $(this).find('input[type=submit]').html('ОТПРАВИТЬ');
+          }
+      });
+       e.preventDefault(); // avoid to execute the actual submit of the form.
     });
-     e.preventDefault(); // avoid to execute the actual submit of the form.
-  });
 
     // scroll to name by tag
   $(function() {
@@ -76,6 +79,8 @@ function switchContent(one, two) {
 
         $(one_content).html(two_html);
         $(two_content).html(one_html);
+        
+        showHideTextTails();
 
         $(one_content).animate({
             "opacity" : "1"
@@ -85,3 +90,27 @@ function switchContent(one, two) {
         }, 200);
     });
 };
+
+function cutReviewText() {
+    $('.slide .content p').each(function(review) {
+      text = $(this).text();
+      length = 200;
+
+      if (text.length > length) {
+        trimmedString = text.substring(0, length - 3);
+        $(this).text(trimmedString);
+        $(this).append('<span class="dots">...</span>');
+        $(this).append('<span class="text_tail">' + text.substring(length - 3, text.length) + '</span>');
+      }
+      else
+        $(this).text(text);
+    });
+}
+
+function showHideTextTails() {
+    $('.slide.show .content .text_tail').removeClass('hidden');
+    $('.sub_slide .content .text_tail').addClass('hidden');
+
+    $('.slide.show .content .dots').addClass('hidden');
+    $('.sub_slide .content .dots').removeClass('hidden');
+}

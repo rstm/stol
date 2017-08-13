@@ -12,7 +12,7 @@
 
 #reviews .slides {
 	width: 927px;
-	margin: 43px auto 0;
+	margin: 47px auto 0;
 	/*overflow: hidden;*/
 	position: relative;
   	height: 230px;
@@ -99,7 +99,7 @@
 	margin-left: 113px;
 	margin-top: 0;
     line-height: 22px;
-	width: 380px;
+	padding-right: 40px;
 }
 
 #reviews .slide img {
