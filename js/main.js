@@ -57,7 +57,27 @@ $(document).ready(function() {
 
 
   $('.sub_slide').on('click', function() {
-        switchContent($(this), $('#reviews .show'));
+    switchContent($(this), $('#reviews .show'));
+  });
+
+  $('body').on('click', '.more_text', function() {
+    $(this).parent().find('.dots').hide();
+    $(this).hide();
+    // $(this).next('.text_tail').removeClass('hidden');
+    $(this).next('.text_tail').show('fast');
+    // $('.show').css('height', 'auto');
+    // $('.show').addClass('auto_height');
+    $(this).parent().append('<span class="less_text">Скрыть</span>');
+  });
+    
+  $( "body" ).on('click', '.less_text', function() {
+    $(this).hide();
+    $(this).prev('.text_tail').hide('fast');
+    $(this).parent().find('.dots').show();
+    $(this).parent().find('.more_text').show();
+    // $('.show').removeClass('auto_height');
+    $(this).remove();
+    // $(this).append('<span class="less_text">Скрыть</span>');
   });
     
 });
@@ -80,7 +100,7 @@ function switchContent(one, two) {
         $(one_content).html(two_html);
         $(two_content).html(one_html);
         
-        showHideTextTails();
+        // showHideTextTails();
 
         $(one_content).animate({
             "opacity" : "1"
@@ -94,13 +114,14 @@ function switchContent(one, two) {
 function cutReviewText() {
     $('.slide .content p').each(function(review) {
       text = $(this).text();
-      length = 200;
+      length = 300;
 
       if (text.length > length) {
         trimmedString = text.substring(0, length - 3);
         $(this).text(trimmedString);
         $(this).append('<span class="dots">...</span>');
-        $(this).append('<span class="text_tail">' + text.substring(length - 3, text.length) + '</span>');
+        $(this).append('<span class="more_text">Читать полностью</span>');
+        $(this).append('<span class="text_tail hidden">' + text.substring(length - 3, text.length) + '</span>');
       }
       else
         $(this).text(text);
@@ -108,9 +129,10 @@ function cutReviewText() {
 }
 
 function showHideTextTails() {
-    $('.slide.show .content .text_tail').removeClass('hidden');
-    $('.sub_slide .content .text_tail').addClass('hidden');
+    // $('.slide.show .content .text_tail').removeClass('hidden');
+    // $('.sub_slide .content .text_tail').addClass('hidden');
 
-    $('.slide.show .content .dots').addClass('hidden');
-    $('.sub_slide .content .dots').removeClass('hidden');
+    // $('.slide.show .content .dots').addClass('hidden');
+    // $('.slide .content .dots').removeClass('hidden');
+    // $('.slide .content .text_tail').addClass('hidden');
 }

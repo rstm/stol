@@ -42,6 +42,16 @@
 	cursor: pointer;
 	width: 423px;
 	height: 248px;
+	overflow: hidden;
+}
+
+#reviews .sub_slide p {
+	height: 110px;
+	overflow: hidden;
+}
+
+#reviews .slide.show p {
+  min-height: 154px;
 }
 
 #reviews .slide.left {
@@ -56,7 +66,9 @@
 	left: 213px;
 	z-index: 3;
 	width: 522px;
-	height: 318px;
+	/*min-height: 318px;*/
+	min-height: 288px;
+  padding-bottom: 44px;
 }
 
 #reviews .right {
@@ -107,4 +119,13 @@
 	width: 50px;
 	float: left;
 	margin: 39px 22px 0 44px;
+}
+
+.less_text, .more_text {
+	display: block;
+	color: rgb(68,183,230);
+}
+
+.auto_height {
+	height: auto !important;
 }
