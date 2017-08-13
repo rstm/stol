@@ -99,9 +99,14 @@
 	font-style: italic;
 	font-size: 14px;
 	color: #B3B3B3;
-	display: inline-block;
+	display: block;
     margin-top: 0px;
 	margin-bottom: 21px;
+}
+
+#reviews .slide.left h5 {
+	height: 19px;
+	overflow-x: hidden;
 }
 
 #reviews .slide p {
